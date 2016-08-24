@@ -1,0 +1,5 @@
+apt-get install gdb-arm-none-eabi 
+ 
+TARGET Exynos4210
+bootload.o + kernel.bin.o = BKOS
+can get BKOS from image directory 

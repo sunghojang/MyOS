@@ -1,0 +1,14 @@
+00080000 N _stack
+40100000 T _kernel_start
+40100000 t stack_setup
+40100014 T uart_putc
+40100060 T kmain
+401000c0 D __data_start
+401000c0 D str
+401000d0 D __bss_end__
+401000d0 D _bss_end__
+401000d0 D __bss_start
+401000d0 D __bss_start__
+401000d0 D _edata
+401000d0 D _end
+401000d0 D __end__
